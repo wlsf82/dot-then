@@ -3,7 +3,7 @@ describe('.then()', () => {
     cy.visit('/index.html')
   })
 
-  it('copies the code, types it, submits it, then asserts on the susscess message', () => {
+  it('copies the code, types it, submits it, then asserts on the success message', () => {
     cy.get('#timestamp')
       .then($element => {
         const code = $element[0].innerText
