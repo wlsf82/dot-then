@@ -1,4 +1,4 @@
-describe('.then()', () => {
+describe('.this', () => {
   beforeEach(() => {
     cy.visit('/index.html')
     cy.get('#timestamp').as('timestamp')
